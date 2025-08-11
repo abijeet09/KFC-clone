@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>KFC Project</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+  *{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+   }
+ .border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border: 2px solid black;
+}
+.navbar{
+    height: 60px;
+    background: white;
+    color: black;
+	display: flex;
+    align-items: center;
+/*      justify-content: space-evenly;  */
+	}
+.kfc-logo{
+	margin-left: 70px;
+	margin-right: 140px;
+}
+.box1{
+	justify-content: space-evenly;
+	display: flex;
+    align-items: center;
+	width:160px;
+}
+.box2{
+	margin-left:850px;
+	margin-right:15px;
+}
+.box3{
+	padding-right:15px;
+	margin-right:1px;
+  margin-right: red;
+}
+.navbar2{
+    height: 60px;
+    background: #202124;
+    color: black;
+	display: flex;
+    align-items: center;
+  /* justify-content: space-evenly;   */
+	}
+.second{
+  font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 15px ;
+    margin-left:450px;
+}
+button{
+  background-color: #e4002b;
+    color: #fff;
+    font-family: "National 2 Regular";
+    height: 2.75rem;
+    padding: 0 2.5rem;
+    border: 0;
+    border-radius: 1.4rem;
+    font-size: .9rem;
+}
+.hero-section {
+  background-image: url(hero.png.png);
+  height: 415px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.middle{
+  height: 639px;
+	width: 1100px;
+	margin-left: 270px;
+	margin-right: 80px;
+}
+.two{
+  margin-right: 31px;
+    font-family: "National 2 Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 43px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #202124;
+    margin-top: 100px;
+    margin-bottom: 55px;
+	width:1100px;
+}
+.all-table{
+	height:280px;
+	width:1100px;
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.table1{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img1{
+  /* background-image: url("https://orderserv-kfc-assets.yum.com/15895bb59f7b4bb588ee933f8cd5344a/images/offers/lg/YAYPOP.jpg"); */
+  background-image: url(CAT233.png);
+  width: 235px;
+  height: 199px;
+}
+.text1{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table2{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img2{
+	background: url(CAT224.png);
+    width: 235px;
+    height: 199px;
+}
+.text2{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table3{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img3{
+	background: url(CAT170.png);
+    width: 235px;
+    height: 199px;	
+}
+.text3{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table4{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img4{
+	background: url(CAT86.png);
+    width: 235px;
+    height: 199px;
+}
+.text4{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.all-table2{
+	height:280px;
+	width:1100px;
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.table5{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img5{
+	background: url(CAT190.png);
+    width: 235px;
+    height: 199px;
+}
+.text5{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table6{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img6{
+	background: url(CAT158.png);
+    width: 235px;
+    height: 199px;
+}
+.text6{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table7{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img7{
+	background: url(CAT99.png);
+    width: 235px;
+    height: 199px;
+}
+.text7{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+.table8{
+  background-color: #f8f7f5;
+  margin: 12px;
+  height: 268px;
+  width: 235px;
+}
+.img8{
+	background: url(D-K136.png);
+    width: 235px;
+    height: 199px;
+}
+.text8{
+	margin-top:20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+    line-height: 25px;
+	font-family: "National 2 Condensed";
+	text-align: center;
+}
+footer{
+	background-color:#202124;
+	height:260px;
+	width: auto;
+	margin-top: 90px;
+}
+.foot-panel2 {
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 10px; */
+
+}
+ul{
+    margin-top: 20px;
+}
+ul a {
+    display: block;
+    font-size: 0.85rem;
+     margin-top: 10px;
+     color: #DDDDDD;
+
+}
+/* foot-panel4 */
+.foot-panel4{
+    background-color: #202124;
+    color: white;
+    height: 50px;
+
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+}
+</style>
+ </head>
+ <body>
+  <header>
+  	<div class="navbar">
+	         <div class="icon border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" id="kfcMenuIcon">
+                    <path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                </svg>
+            </div>
+		<div class="kfc-logo border">
+			<img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg">
+		</div>
+		<div class="box1 bordre">
+			<p>Menu</p>
+			<p>Deals</p>
+		</div>
+		<div class="box2 border">
+			<i class="fa-solid fa-user"></i>
+		</div>
+		<div class="box3 border">
+		<b><p>	 Sign In</p></b>
+		</div>
+		<div>
+		<p>₹0</p>
+		</div>
+		<div class="box4">
+			<!-- <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVfuno7pdwOQ9RIvYm9?d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"> -->
+			<a><img src="file:///C:/Users/Win11/Documents/My%20project.css/bucket_cart_icon.svg" height=50px; width=50px;></a>
+		</div>
+  </div>
+  <div class="navbar2">
+     <div class="second">
+        <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
+        </div>
+        <button type="button">Start Order</button>
+  </div>
+  <div class="hero-section">
+  </div>
+  <div class="middle">
+    <div class="two">
+		<p>BROWSE CATEGORIES </p>
+    </div>
+	<div class="all-table">
+    <div class="table1">
+    <div class="img1"></div>
+	<div class="text1">
+	<p>PERI PERI CHICKEN</p> 
+	</div>
+  </div>
+  <div class="table2">
+    <div class="img2">
+    </div>
+	<div class="text2">
+	<p>VALUE SNACKERS</p> 
+	</div>
+  </div>   
+   <div class="table3">
+    <div class="img3">
+    </div>
+	<div class="text3">
+	<p>CHICKEN ROLLS</p> 
+	</div>
+  </div>    
+  <div class="table4">
+    <div class="img4">
+    </div>
+	<div class="text4">
+	<p>CHICKEN BUCKETS</p> 
+	</div>
+  </div>
+  </div>
+<!-- This is second table -->
+	<div class="all-table2">
+    <div class="table5">
+    <div class="img5"></div>
+	<div class="text5">
+	<p>PERI PERI CHICKEN</p> 
+	</div>
+  </div>
+  <div class="table6">
+    <div class="img6">
+    </div>
+	<div class="text6">
+	<p>VALUE SNACKERS</p> 
+	</div>
+  </div>   
+   <div class="table7">
+    <div class="img7">
+    </div>
+	<div class="text7">
+	<p>CHICKEN ROLLS</p> 
+	</div>
+  </div>    
+  <div class="table8">
+    <div class="img8">
+    </div>
+	<div class="text8">
+	<p>REGULAR POPCORN</p> 
+	</div>
+  </div>
+  </div>
+  </div>
+  </header>
+  <footer>
+  <div class="foot-panel2">
+      <ul>
+        <a>Legal</a>
+        <a>Terms and Conditions</a>
+        <a>Privacy Policy</a>
+        <a>Disclaimer</a>
+        <a>Caution Notice</a>
+      </ul>
+      <ul>
+        <a>KFC India</a>
+        <a>About KFC</a>
+        <a>KFC Care</a>
+        <a>Careers</a>
+        <a>Our Golden Past</a>
+      </ul>
+      <ul>
+        <a>KFC Food</a>
+        <a>Menu</a>
+        <a>Order Lookup</a>
+        <a>Gift Card</a>
+        <a>Nutrition & Allergen</a>
+      </ul>
+      <ul>
+        <a>Support</a>
+        <a>Get Help</a>
+        <a>Contact Us</a>
+        <a>KFC Feedback</a>
+        <a>Privacy Policy</a>
+      </ul>
+    </div>  
+    <div class="foot-panel4">
+      <div class="pages">
+        <a>Conditional of Use </a>
+        <a>Privacy Notice</a>
+        <a>Your Ads Privacy Choices</a>
+      </div>
+      <div class="copyright">
+        1996-2023, KFC.com, Inc.or its affiliates
+      </div>
+    </div>
+  </footer>
+ </body>
+</html>
